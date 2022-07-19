@@ -95,7 +95,7 @@ class RefundActivity : Activity(), View.OnClickListener {
         intent.setPackage("com.wiseasy.cashier")
         intent.setAction("com.wiseasy.transaction.call")
         intent.putExtra("version", "A01")
-        intent.putExtra("appId", "wz6012822ca2f1as78")
+        intent.putExtra("appId", "yourappid")
         intent.putExtra("transType", "REFUND")
         var jsonObject = JSONObject()
         try {

@@ -56,7 +56,7 @@ class PreAuthActivity : AppCompatActivity(), View.OnClickListener {
         intent.setPackage("com.wiseasy.cashier")
         intent.action = "com.wiseasy.transaction.call"
         intent.putExtra("version", "A01")
-        intent.putExtra("appId", "wz6012822ca2f1as78")
+        intent.putExtra("appId", "yourappid")
         intent.putExtra("transType", "PREAUTH")
         var jsonObject = JSONObject()
         try {
