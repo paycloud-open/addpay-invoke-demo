@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_amount_refund"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/refund_input_amount"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_order_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/refund_input_third_no"
+        android:inputType="number" />
+
+    <!--银行卡信息-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/refund_bank_card_info"
+        android:textColor="#f30" />
+
+    <EditText
+        android:id="@+id/et_card_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入原交易卡号"
+        android:inputType="number"
+        android:visibility="gone" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/et_voucher_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/refund_input_original_voucher_no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_batch_no"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:hint="@string/refund_input_original_batch_no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_refer_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/refund_input_original_refer_no" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/refund_original_date"
+        android:onClick="onClick"
+        android:padding="3dp"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_refund"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/consume_bank_card" />
+
+        <Button
+            android:id="@+id/btn_refund_mobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/consume_unionpay_qr_code" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_result_refund"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="#3f30" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">AddPayInvokeDemo</string>
+
+
+    <!--主界面-->
+    <string name="main_consume">Consume</string>
+    <string name="main_void">Void</string>
+    <string name="main_refund">Refund</string>
+    <string name="main_query">Query</string>
+    <string name="main_reprint">Reprint</string>
+    <string name="main_preauth">PreAuth</string>
+    <string name="main_preauth_complete">PreAuth Complete</string>
+    <string name="main_version">Version：</string>
+
+    <!--消费-->
+    <string name="consume_input_amount">Input consume amount</string>
+    <string name="consume_input_note">Input a comment (optional)</string>
+    <string name="consume_success">Consume success</string>
+    <string name="consume_fail">Consume fail</string>
+    <string name="consume_bank_card">Bankcard</string>
+    <string name="consume_unionpay_qr_code">Unionpay QR Code</string>
+
+    <!--退款-->
+    <string name="refund_input_amount">Input refund amount</string>
+    <string name="refund_input_trans_type">Input Trans. type(2-Refund, 3-Void)</string>
+    <string name="refund_input_third_no">Input third No.</string>
+    <string name="refund_bank_card_info">The following is the bank card information</string>
+    <string name="refund_input_original_voucher_no">Input original STAN</string>
+    <string name="refund_input_original_batch_no">Input original batch No.</string>
+    <string name="refund_input_original_refer_no">Input original RRN</string>
+    <string name="refund_original_date">Original date,format：yyyy-MM-dd</string>
+    <string name="refund_success">Refund success</string>
+    <string name="void_success">Void success</string>
+    <string name="refund_fail">Refund fail</string>
+    <string name="void_fail">Void fail</string>
+
+
+    <!--预授权-->
+    <string name="preauth_input_amt">Input preAuth complete amount</string>
+    <string name="preauth_input_refno">Input Auth number</string>
+    <string name="preauth_input_preauth_thirdno">Input third BusinessOrderNo</string>
+    <string name="preauth_cancel">PreAuth Cancel</string>
+
+    <!--查询-->
+    <string name="query_success">Query success</string>
+    <string name="query_fail">Query fail</string>
+
+    <!--重打印-->
+    <string name="reprint_input_refer_no">Input Refer No.</string>
+    <string name="reprint_success">Reprint success</string>
+    <string name="reprint_fail">Reprint fail</string>
+    <string name="balance_inquiry_success">Balance Inquiry Success</string>
+    <string name="balance_inquiry_fail">Balance Inquiry Fail</string>
+    <string name="main_balance_inquiry">Balance Inquiry</string>
+
+    <!--VPN-->
+    <string name="vpn_open">打开VPN</string>
+
+
+    <!--print-->
+    <string name="print">Print</string>
+    <string name="settlement">Settlement</string>
+</resources>

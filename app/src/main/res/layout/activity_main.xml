@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_consume_trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_consume" />
+
+    <Button
+        android:id="@+id/btn_void"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_consume_trans"
+        android:text="@string/main_void" />
+
+    <Button
+        android:id="@+id/btn_refund_trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_void"
+        android:text="@string/main_refund" />
+
+    <Button
+        android:id="@+id/btn_balance_inquiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_refund_trans"
+        android:text="@string/main_balance_inquiry" />
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_balance_inquiry"
+        android:text="@string/main_query" />
+
+    <Button
+        android:id="@+id/btn_reprint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_query"
+        android:text="@string/main_reprint" />
+
+    <Button
+        android:id="@+id/btn_preauth_trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_reprint"
+        android:text="@string/main_preauth" />
+
+    <Button
+        android:id="@+id/btn_preauth_complete_trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_preauth_trans"
+        android:text="@string/main_preauth_complete" />
+
+    <Button
+        android:id="@+id/btn_preauth_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_preauth_complete_trans"
+        android:text="@string/preauth_cancel" />
+
+    <Button
+        android:id="@+id/btn_open_vpn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_preauth_cancel"
+        android:text="@string/vpn_open" />
+
+    <Button
+        android:id="@+id/btn_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_open_vpn"
+        android:text="@string/print" />
+
+    <Button
+        android:id="@+id/btn_settlement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_print"
+        android:text="@string/settlement" />
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="bottom"
+        android:text="@string/main_version" />
+
+</RelativeLayout>
