@@ -15,6 +15,9 @@ import org.json.JSONException
 import org.json.JSONObject
 
 
+/**
+ * A version later than 1.0.4.5-addpay-2122030988（1.0。4.5-tabbs-2122030966） is required
+ */
 class ConsumeActivity : Activity(), View.OnClickListener {
 
     private val TAG = "invoke--ConsumeActivity"
