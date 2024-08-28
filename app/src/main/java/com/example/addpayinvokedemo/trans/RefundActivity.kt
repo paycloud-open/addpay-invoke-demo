@@ -92,7 +92,6 @@ class RefundActivity : Activity(), View.OnClickListener {
     private fun invokeRefund() {
 
         var intent = Intent()
-        intent.setPackage("com.wiseasy.cashier")
         intent.setAction("com.wiseasy.transaction.call")
         intent.putExtra("version", "A01")
         intent.putExtra("appId", "yourappid")

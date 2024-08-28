@@ -53,7 +53,6 @@ class PreAuthActivity : AppCompatActivity(), View.OnClickListener {
         if (ViewUtil.checkTextIsEmpty(this, et_amount_preauth)) return
 
         var intent = Intent()
-        intent.setPackage("com.wiseasy.cashier")
         intent.action = "com.wiseasy.transaction.call"
         intent.putExtra("version", "A01")
         intent.putExtra("appId", "yourappid")

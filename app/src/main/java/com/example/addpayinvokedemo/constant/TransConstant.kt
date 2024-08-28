@@ -13,7 +13,6 @@ object TransConstant {
     const val resultMsg = "resultMsg"
     const val paymentMethod = "paymentMethod"
     const val userID = "userID"
-    const val POSMode = "POSMode"
     const val note = "note"
     const val TID = "TID"
     const val MID = "MID"

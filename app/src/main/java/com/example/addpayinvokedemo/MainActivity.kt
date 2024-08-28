@@ -95,7 +95,6 @@ class MainActivity : Activity(), View.OnClickListener {
             }
             R.id.btn_settlement -> {
                 var intent = Intent()
-                intent.setPackage("com.wiseasy.cashier")
                 intent.action = "com.wiseasy.transaction.call"
                 intent.putExtra("version", "A01")
                 intent.putExtra("appId", "yourappid")

@@ -45,7 +45,6 @@ class PrintActivity : Activity(), View.OnClickListener {
     private fun invokeQuery(thirdTransNO: String) {
         if (checkTextIsEmpty(mContext, et_order_no)) return
         var intent = Intent()
-        intent.setPackage("com.wiseasy.cashier")
         intent.action = "com.wiseasy.transaction.call"
         intent.putExtra("version", "A01")
         intent.putExtra("appId", "yourappid")

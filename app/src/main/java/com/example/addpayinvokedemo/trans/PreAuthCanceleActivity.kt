@@ -80,7 +80,6 @@ class PreAuthCanceleActivity : AppCompatActivity(), View.OnClickListener {
     private fun invokeComplete() {
 
         var intent = Intent()
-        intent.setPackage("com.wiseasy.cashier")
         intent.setAction("com.wiseasy.transaction.call")
         intent.putExtra("version", "A01")
         intent.putExtra("appId", "yourappid")

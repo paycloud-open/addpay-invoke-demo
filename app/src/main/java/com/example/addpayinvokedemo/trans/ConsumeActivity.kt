@@ -60,7 +60,6 @@ class ConsumeActivity : Activity(), View.OnClickListener {
         if (checkTextIsEmpty(mContext, et_amount_consume)) return
 
         var intent = Intent()
-        intent.setPackage("com.wiseasy.cashier")
         intent.action = "com.wiseasy.transaction.call"
         intent.putExtra("version", "A01")
         intent.putExtra("appId", "yourappid")
